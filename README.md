@@ -23,10 +23,7 @@ also .gitmodules will create in current folder.
 git submodule foreach git pull
 
 # Commit submodule changes. 
-its better to ignore submodule from main project ( add common-utility to .gitignore file)
-other wise it will commit and pust to local repo. 
 
-Paths to commit
 
 cd common-utility - then git commit. 
 
